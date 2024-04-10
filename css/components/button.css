@@ -1,0 +1,25 @@
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    max-width: 675px;
+}
+
+
+.btn-1 {
+	background-color: #f7dd19;
+	box-shadow: 10px 10px 30px rgba(240,240,240,0.5);
+	position: relative;
+  	left: 60px;
+  	bottom: 50px;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: #d18b08;
+	font-weight: bold;
+	font-family: "Jost", sans-serif;
+	transition : all 0.3s ease; 
+}
+
+
+.btn-1:hover{
+	transform: scale(1.1);
+}

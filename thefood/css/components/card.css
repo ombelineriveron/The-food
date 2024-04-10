@@ -1,0 +1,68 @@
+.card-container, .cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card1, .card {
+    background: linear-gradient(225deg, #F5DEB3, #DAA520);
+    box-shadow: 0 6px 12px rgba(85, 85, 85, 0.2);
+    padding: 15px;
+    border-radius: 3px;
+    transition: transform 0.3s ease, box-shadow 0.5s ease, border-color 0.3s ease;
+    transform: scale(1);
+    margin: 20px 13px; /* Espacement entre les cartes */
+    text-align: left;
+    line-height: 3;
+    height: auto; /* Hauteur flexible */
+}
+
+.card1 {
+    flex: 1 1 40%; /* Utilisation de % pour définir la largeur */
+    max-width: 40%; /* Utilisation de % pour définir la largeur */
+}
+
+.card {
+    flex: 1 1 85%; /* Utilisation de % pour définir la largeur */
+    max-width: 85%; /* Utilisation de % pour définir la largeur */
+    height: auto; /* Hauteur flexible */
+}
+
+.card1 ol {
+    list-style: none; /* Supprimer les puces de la liste */
+    padding-left: 0; /* Supprimer tout espacement par défaut */
+}
+
+.card1 li {
+    margin-left: 0px; /* Ajouter une marge à gauche pour aligner le texte avec le reste du contenu */
+}
+
+.card1 img, .card img {
+    width: auto; /* Réinitialiser la largeur à auto */
+    height: auto; /* Réinitialiser la hauteur à auto */
+    max-width: 100%; /* Définir une largeur maximale de 100% */
+    max-height: 100%; /* Définir une hauteur maximale de 100% */
+}
+
+.card:hover, .card1:hover {
+    transform: scale(1.07);
+    box-shadow: 0 12px 24px rgba(120, 120, 120, 0.3);
+    border-color: #403e3e;
+}
+
+.card h2, .card1 h2 {
+    color: whitesmoke;
+    font-size: 28px;
+    text-align: left;
+}
+
+.card p, .card1 p {
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Ajouter un style pour que le contenu de la carte s'affiche verticalement lorsque l'espace est insuffisant */
+.card * {
+    flex-wrap: wrap;
+}

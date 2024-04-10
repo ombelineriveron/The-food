@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@800&family=Livvic&family=Righteous&display=swap");
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/contact.css");
+@import url("components/icones.css");
+
+body {
+	background: linear-gradient(-225deg, #F5DEB3, #FFD700);
+	color: whitesmoke;
+	font-family: "Jost", sans-serif;
+	font-size: 26px;
+	margin: 0px;
+}
+
+
+h1 {
+	font-family: "Righteous", sans-serif;
+}
+
+h2 {
+	font-family: "Jost", sans-serif;
+  	font-weight: 500;
+  	font-style: medium;
+}
+
+
+P, ol{
+	font-family: "Livvic", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	opacity: 0.5;
+	border-radius: 20px;
+	color: whitesmoke;
+}
+
+
+a:hover {
+	opacity: 0.8;
+}
