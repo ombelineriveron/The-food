@@ -18,30 +18,28 @@
 }
 
 .card1 {
-    flex: 1 1 40%; /* Utilisation de % pour définir la largeur */
-    max-width: 40%; /* Utilisation de % pour définir la largeur */
-}
-
+    flex: 1 1 40%; 
+    max-width: 40%; 
 .card {
-    flex: 1 1 85%; /* Utilisation de % pour définir la largeur */
-    max-width: 85%; /* Utilisation de % pour définir la largeur */
-    height: auto; /* Hauteur flexible */
+    flex: 1 1 85%; 
+    max-width: 85%; 
+    height: auto; 
 }
 
 .card1 ol {
-    list-style: none; /* Supprimer les puces de la liste */
-    padding-left: 0; /* Supprimer tout espacement par défaut */
+    list-style: none; 
+    padding-left: 0; 
 }
 
 .card1 li {
-    margin-left: 0px; /* Ajouter une marge à gauche pour aligner le texte avec le reste du contenu */
+    margin-left: 0px; 
 }
 
 .card1 img, .card img {
-    width: auto; /* Réinitialiser la largeur à auto */
-    height: auto; /* Réinitialiser la hauteur à auto */
-    max-width: 100%; /* Définir une largeur maximale de 100% */
-    max-height: 100%; /* Définir une hauteur maximale de 100% */
+    width: auto; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 100%; 
 }
 
 .card:hover, .card1:hover {
